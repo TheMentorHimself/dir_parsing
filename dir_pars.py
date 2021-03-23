@@ -26,6 +26,8 @@ def get_index(url):
         req = requests.get(url)
         if req.status_code == 200:
             return req.content
+        else:
+            print("Can't reach webserver source index")
     except Exception as error:
         print("An error has ocurred: ") 
         print(error)
