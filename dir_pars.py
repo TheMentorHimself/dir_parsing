@@ -1,7 +1,4 @@
 ####MADE BY THE MENTOR####
-
-#####USE READ.ME FILE#####
-
 import sys
 
 import requests
